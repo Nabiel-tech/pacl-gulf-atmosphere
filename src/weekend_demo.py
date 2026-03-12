@@ -11,11 +11,11 @@ def classify_environment(m_profile: np.ndarray) -> dict:
     gradient = np.gradient(m_profile)
     min_grad = float(np.min(gradient))
 
-    if min_grad < -0.05:
+    if min_grad < -15.0:
         duct_risk = "High"
         radar = "Low"
         swir = "Medium"
-    elif min_grad < 0.02:
+    elif min_grad < -5.0:
         duct_risk = "Moderate"
         radar = "Medium"
         swir = "Medium"
@@ -29,7 +29,6 @@ def classify_environment(m_profile: np.ndarray) -> dict:
         "radar_stability": radar,
         "swir_quality": swir,
     }
-
 
 def build_case(case_name: str):
     h = np.linspace(0, 100, 101)

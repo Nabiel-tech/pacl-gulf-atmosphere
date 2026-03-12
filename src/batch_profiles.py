@@ -14,12 +14,12 @@ def classify_environment(m_profile: np.ndarray) -> dict:
     min_grad = float(np.min(gradient))
     mean_grad = float(np.mean(gradient))
 
-    if min_grad < -0.05:
+    if min_grad < -15.0:
         duct_risk = "High"
         radar = "Low"
         swir = "Medium"
         label = "DUCT_RISK"
-    elif min_grad < 0.02:
+    elif min_grad < -5.0:
         duct_risk = "Moderate"
         radar = "Medium"
         swir = "Medium"
@@ -30,6 +30,14 @@ def classify_environment(m_profile: np.ndarray) -> dict:
         swir = "High"
         label = "CLEAR"
 
+    return {
+        "classification": label,
+        "duct_risk": duct_risk,
+        "radar_stability": radar,
+        "swir_quality": swir,
+        "min_gradient": min_grad,
+        "mean_gradient": mean_grad,
+    }
     return {
         "classification": label,
         "duct_risk": duct_risk,
