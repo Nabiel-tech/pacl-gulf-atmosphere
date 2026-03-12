@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data files
+data/raw/*.csv
+data/raw/*.nc
+data/raw/*.grib
+data/raw/*.zip
+data/processed/*.parquet
+data/processed/*.feather
+
+# Generated outputs
+outputs/
+figures/
