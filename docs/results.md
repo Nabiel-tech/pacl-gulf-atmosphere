@@ -2,7 +2,7 @@
 
 ## Summary
 
-This repository demonstrates a first-pass Layer 1 PACL artifact:
+This repository demonstrates an initial Layer 1 PACL artifact:
 modified refractivity (M-profile) computation for Gulf-like atmospheric conditions.
 
 ## Generated Outputs
@@ -21,20 +21,24 @@ This figure compares three atmospheric cases:
 - hazy
 - duct-risk
 
-The demo also maps each atmospheric profile to a simple sensing-state interpretation:
+### 3. CSV-Driven Sample Profile Result
+File: `docs/sample_profile_result.png`  
+File: `docs/sample_profile_result.txt`
 
-| Case | Duct Risk | SWIR Quality | Radar Stability |
-|---|---|---|---|
-| Clear | Low | High | High |
-| Hazy | Moderate | Medium | Medium |
-| Duct-risk | High | Medium | Low |
+This output demonstrates a reproducible input-to-result pipeline:
+
+- load profile CSV
+- compute M-profile
+- classify sensing state
+- save figure and text summary
 
 ## Interpretation
 
-The purpose of this initial prototype is not operational prediction.
-It is to demonstrate the PACL principle:
+The purpose of this prototype is not operational prediction.
+It demonstrates the PACL principle:
 
 **atmospheric state can be converted into sensing context.**
 
 This supports the broader PACL research direction:
+
 Atmosphere → Sensing → Fusion → Edge

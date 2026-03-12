@@ -1,0 +1,10 @@
+PACL Layer 1 – Sample Profile Result
+========================================
+Input file: data/raw/sample_profile.csv
+Classification: DUCT_RISK
+Duct Risk: High
+SWIR Quality: Medium
+Radar Stability: Low
+Minimum M-profile gradient: -11.4256
+Mean M-profile gradient: -9.7974
+Output plot: docs/sample_profile_result.png
