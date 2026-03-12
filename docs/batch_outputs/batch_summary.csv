@@ -1,0 +1,4 @@
+file,classification,duct_risk,swir_quality,radar_stability,min_gradient,mean_gradient,plot_file
+clear_profile.csv,DUCT_RISK,High,Medium,Low,-2.3962086844713326,-2.033515131506763,clear_profile_m_profile.png
+duct_risk_profile.csv,DUCT_RISK,High,Medium,Low,-22.31854136856208,-16.017991892765032,duct_risk_profile_m_profile.png
+hazy_profile.csv,DUCT_RISK,High,Medium,Low,-10.640367944523405,-8.639711285376581,hazy_profile_m_profile.png
