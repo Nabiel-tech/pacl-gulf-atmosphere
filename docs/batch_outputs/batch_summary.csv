@@ -2,3 +2,9 @@ file,site,date,case,classification,duct_risk,swir_quality,radar_stability,min_gr
 doha_2026-03-12_clear.csv,doha,2026-03-12,clear,CLEAR,Low,High,High,-2.3962086844713326,-2.033515131506763,doha_2026-03-12_clear_m_profile.png
 doha_2026-03-12_duct.csv,doha,2026-03-12,duct,DUCT_RISK,High,Medium,Low,-22.31854136856208,-16.017991892765032,doha_2026-03-12_duct_m_profile.png
 doha_2026-03-12_hazy.csv,doha,2026-03-12,hazy,TRANSITIONAL,Moderate,Medium,Medium,-10.640367944523405,-8.639711285376581,doha_2026-03-12_hazy_m_profile.png
+dukhan_2026-03-12_clear.csv,dukhan,2026-03-12,clear,CLEAR,Low,High,High,-1.664642923928966,-1.3554728238421954,dukhan_2026-03-12_clear_m_profile.png
+dukhan_2026-03-12_duct.csv,dukhan,2026-03-12,duct,DUCT_RISK,High,Medium,Low,-19.149670784176294,-13.30940375672875,dukhan_2026-03-12_duct_m_profile.png
+dukhan_2026-03-12_hazy.csv,dukhan,2026-03-12,hazy,TRANSITIONAL,Moderate,Medium,Medium,-9.491052056483966,-7.567409271301805,dukhan_2026-03-12_hazy_m_profile.png
+mesaieed_2026-03-12_clear.csv,mesaieed,2026-03-12,clear,CLEAR,Low,High,High,-2.245812076676998,-1.8936022888863369,mesaieed_2026-03-12_clear_m_profile.png
+mesaieed_2026-03-12_duct.csv,mesaieed,2026-03-12,duct,DUCT_RISK,High,Medium,Low,-21.532640778452674,-15.149265586784804,mesaieed_2026-03-12_duct_m_profile.png
+mesaieed_2026-03-12_hazy.csv,mesaieed,2026-03-12,hazy,TRANSITIONAL,Moderate,Medium,Medium,-11.284086743664375,-9.129404943431519,mesaieed_2026-03-12_hazy_m_profile.png

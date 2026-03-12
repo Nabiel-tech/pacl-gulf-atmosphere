@@ -9,6 +9,12 @@ This report summarizes the current multi-profile PACL Layer 1 prototype.
 | doha_2026-03-12_clear.csv | CLEAR | Low | High | High | -2.396 | -2.034 |
 | doha_2026-03-12_duct.csv | DUCT_RISK | High | Medium | Low | -22.319 | -16.018 |
 | doha_2026-03-12_hazy.csv | TRANSITIONAL | Moderate | Medium | Medium | -10.640 | -8.640 |
+| dukhan_2026-03-12_clear.csv | CLEAR | Low | High | High | -1.665 | -1.355 |
+| dukhan_2026-03-12_duct.csv | DUCT_RISK | High | Medium | Low | -19.150 | -13.309 |
+| dukhan_2026-03-12_hazy.csv | TRANSITIONAL | Moderate | Medium | Medium | -9.491 | -7.567 |
+| mesaieed_2026-03-12_clear.csv | CLEAR | Low | High | High | -2.246 | -1.894 |
+| mesaieed_2026-03-12_duct.csv | DUCT_RISK | High | Medium | Low | -21.533 | -15.149 |
+| mesaieed_2026-03-12_hazy.csv | TRANSITIONAL | Moderate | Medium | Medium | -11.284 | -9.129 |
 
 ## Interpretation
 
