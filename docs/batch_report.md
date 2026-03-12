@@ -6,9 +6,9 @@ This report summarizes the current multi-profile PACL Layer 1 prototype.
 
 | File | Classification | Duct Risk | SWIR Quality | Radar Stability | Min Gradient | Mean Gradient |
 |---|---|---|---|---|---:|---:|
-| clear_profile.csv | CLEAR | Low | High | High | -2.396 | -2.034 |
-| duct_risk_profile.csv | DUCT_RISK | High | Medium | Low | -22.319 | -16.018 |
-| hazy_profile.csv | TRANSITIONAL | Moderate | Medium | Medium | -10.640 | -8.640 |
+| doha_2026-03-12_clear.csv | CLEAR | Low | High | High | -2.396 | -2.034 |
+| doha_2026-03-12_duct.csv | DUCT_RISK | High | Medium | Low | -22.319 | -16.018 |
+| doha_2026-03-12_hazy.csv | TRANSITIONAL | Moderate | Medium | Medium | -10.640 | -8.640 |
 
 ## Interpretation
 

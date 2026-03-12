@@ -31,6 +31,14 @@ Build a small, credible research artifact showing:
 ## Status
 
 Early-stage research repository.
+
+## Run the PACL Layer 1 Pipeline
+
+From the repository root:
+
+```bash
+./run_pacl_layer1.sh
+
 ## Example Output
 
 Synthetic Gulf M-profile:
