@@ -9,6 +9,33 @@ import pandas as pd
 from m_profile import profile_from_arrays
 
 
+def parse_profile_filename(csv_path: Path) -> dict:
+    """
+    Expected filename format:
+    <site>_<date>_<case>.csv
+
+    Example:
+    doha_2026-03-12_clear.csv
+    """
+    stem = csv_path.stem
+    parts = stem.split("_")
+
+    if len(parts) >= 3:
+        site = parts[0]
+        date = parts[1]
+        case = "_".join(parts[2:])
+    else:
+        site = "unknown"
+        date = "unknown"
+        case = stem
+
+    return {
+        "site": site,
+        "date": date,
+        "case": case,
+    }
+
+
 def classify_environment(m_profile: np.ndarray) -> dict:
     gradient = np.gradient(m_profile)
     min_grad = float(np.min(gradient))
@@ -30,14 +57,6 @@ def classify_environment(m_profile: np.ndarray) -> dict:
         swir = "High"
         label = "CLEAR"
 
-    return {
-        "classification": label,
-        "duct_risk": duct_risk,
-        "radar_stability": radar,
-        "swir_quality": swir,
-        "min_gradient": min_grad,
-        "mean_gradient": mean_grad,
-    }
     return {
         "classification": label,
         "duct_risk": duct_risk,
@@ -69,6 +88,7 @@ def process_profile(csv_path: Path, output_dir: Path) -> dict:
     )
 
     result = classify_environment(m_profile)
+    meta = parse_profile_filename(csv_path)
 
     plot_name = f"{csv_path.stem}_m_profile.png"
     plot_path = output_dir / plot_name
@@ -85,6 +105,9 @@ def process_profile(csv_path: Path, output_dir: Path) -> dict:
 
     return {
         "file": csv_path.name,
+        "site": meta["site"],
+        "date": meta["date"],
+        "case": meta["case"],
         "classification": result["classification"],
         "duct_risk": result["duct_risk"],
         "swir_quality": result["swir_quality"],
@@ -110,6 +133,9 @@ def main() -> None:
         results.append(result)
         print(
             f"{result['file']}: "
+            f"site={result['site']} | "
+            f"date={result['date']} | "
+            f"case={result['case']} | "
             f"class={result['classification']} | "
             f"duct={result['duct_risk']} | "
             f"SWIR={result['swir_quality']} | "

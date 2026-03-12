@@ -1,4 +1,4 @@
-file,classification,duct_risk,swir_quality,radar_stability,min_gradient,mean_gradient,plot_file
-clear_profile.csv,CLEAR,Low,High,High,-2.3962086844713326,-2.033515131506763,clear_profile_m_profile.png
-duct_risk_profile.csv,DUCT_RISK,High,Medium,Low,-22.31854136856208,-16.017991892765032,duct_risk_profile_m_profile.png
-hazy_profile.csv,TRANSITIONAL,Moderate,Medium,Medium,-10.640367944523405,-8.639711285376581,hazy_profile_m_profile.png
+file,site,date,case,classification,duct_risk,swir_quality,radar_stability,min_gradient,mean_gradient,plot_file
+doha_2026-03-12_clear.csv,doha,2026-03-12,clear,CLEAR,Low,High,High,-2.3962086844713326,-2.033515131506763,doha_2026-03-12_clear_m_profile.png
+doha_2026-03-12_duct.csv,doha,2026-03-12,duct,DUCT_RISK,High,Medium,Low,-22.31854136856208,-16.017991892765032,doha_2026-03-12_duct_m_profile.png
+doha_2026-03-12_hazy.csv,doha,2026-03-12,hazy,TRANSITIONAL,Moderate,Medium,Medium,-10.640367944523405,-8.639711285376581,doha_2026-03-12_hazy_m_profile.png
