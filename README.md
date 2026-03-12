@@ -31,3 +31,16 @@ Build a small, credible research artifact showing:
 ## Status
 
 Early-stage research repository.
+## Example Output
+
+Synthetic Gulf M-profile:
+
+![Synthetic profile](docs/synthetic_m_profile.png)
+
+Weekend PACL demo:
+
+![Weekend demo](docs/weekend_pacl_demo.png)
+
+CSV-driven profile result:
+
+![CSV result](docs/sample_profile_result.png)
