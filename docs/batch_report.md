@@ -34,3 +34,19 @@ The pipeline is now able to act as a small test harness for:
 - comparing atmospheric profile classes
 - calibrating environment classification thresholds
 - preparing Layer 1 results for downstream sensing and fusion work
+
+## Site Comparison Figure
+
+File: `docs/batch_outputs/site_case_comparison.png`
+
+This figure compares mean-gradient behavior across:
+
+- Doha
+- Mesaieed
+- Dukhan
+
+for the three atmospheric cases:
+
+- clear
+- hazy
+- duct
