@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "PACL Gulf Atmosphere Layer 1 Prototype"
+message: "If you use this software or dataset, please cite it as below."
+type: software
+authors:
+  - family-names: Hussien
+    given-names: Nabiel
+repository-code: https://github.com/Nabiel-tech/pacl-gulf-atmosphere
+url: https://github.com/Nabiel-tech/pacl-gulf-atmosphere
+abstract: >
+  PACL Layer 1 prototype demonstrating atmospheric sensing-state
+  classification using modified refractivity gradients across Gulf
+  coastal environments (Doha, Mesaieed, Dukhan).
+keywords:
+  - atmospheric sensing
+  - refractivity
+  - coastal atmosphere
+  - PACL
+  - remote sensing
+license: MIT
