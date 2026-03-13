@@ -1,5 +1,7 @@
 # PACL Gulf Atmosphere
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18993522.svg)](https://doi.org/10.5281/zenodo.18993522)
+
 PACL Gulf Atmosphere is the first public research artifact for PACL
 (Atmospheric-Aware Sensing and Tracking in Gulf Coastal Environments).
 
